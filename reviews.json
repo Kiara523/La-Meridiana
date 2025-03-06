@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Massimo",
+    "date": "08-05-2022",
+    "title": "Favoloso",
+    "review": "Tutto,soprattutto la grandissima disponibilità del Sig Claudio",
+    "rating": 5,
+    "language": "it"
+  },
+  {
+    "id": 2,
+    "name": "Vero_p",
+    "date": "21-08-2024",
+    "title": "Eccezionale",
+    "review": "Appartamento pulito e molto grande, ci sono 2 camere da letto e una cucina, il bagno con lavatrice e stendino. L'aria condizionata è dall'ingresso ma abbiamo dormito bene perché arriva anche in camera, i materassi comodissimi - che non è facile trovare. Tutto recente e pulito, giardino super curato dal proprietario che ci ha offerto anche qualche prodotto raccolto dai suoi alberi. Posto auto riparato dal sole e la possibilità di cenare sotto il patio in giardino, una chicca, soprattutto in compagnia del simpatico cagnolino Mario e i suoi 2 amici gatti! E' vicino alla spiaggia ma è una zona dove bisogna comunque avere l'auto per spostarsi, si raggiunge facilmente Ragusa, Scicli, Modica ecc. e tutte le spiagge della costa. Purtroppo nel periodo di alta stagione abbiamo avuto problemi con l'acqua, non imputabili ovviamente al proprietario. Speriamo che migliori la situazione anche per chi ci vive tutto l'anno!",
+    "rating": 5,
+    "language": "it"
+  },
+  {
+    "id": 3,
+    "name": "Alessandra",
+    "date": "12-06-2024",
+    "title": "Rilassante",
+    "review": "Lo spazio esterno a disposizione, con dei bimbi è perfetto, libertà e relax. Casa completa, pulita e moderna. Proprietario accogliente e molto gentile.",
+    "rating": 5,
+    "language": "it"
+  },
+  {
+    "id": 4,
+    "name": "Claudia",
+    "date": "06-04-2024",
+    "title": "Una casetta in campagna ma vicina al mare",
+    "review": "Soggiorno perfetto, il signor Claudio e il suo simpatico cagnolino Mario sono stati accoglienti e discreti. La casetta in cui abbiamo soggiornato era pulita e fresca con vista sul giardino, inoltre il signor Claudio è stato gentile e flessibile sugli orari di check in/out facendoci trovare anche una bella sorpresa in frigo al nostro arrivo (una bottiglia di birra e di coca cola).",
+    "rating": 4.5,
+    "language": "it"
+  },
+  {
+    "id": 5,
+    "name": "Francesco",
+    "date": "19-12-2023",
+    "title": "Eccezionale",
+    "review": "Accoglienza magnifica. Ambiente confortevole, immerso nel verde a pochi passi dal mare e dotato di tutti i comfortDa ritornare, per momenti di piacevole. Lo consiglio vivamente ",
+    "rating": 5,
+    "language": "it"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "images": [
+    { "url": "path/to/image1.jpg", "alt": "Image 1 description" },
+    { "url": "path/to/image2.jpg", "alt": "Image 2 description" },
+    { "url": "path/to/image3.jpg", "alt": "Image 3 description" }
+  ]
+}
