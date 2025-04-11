@@ -32,13 +32,7 @@ function createCardReview(data) {
     const cardDiv = document.createElement("div");
     cardDiv.setAttribute("class", "review-card");
     reviewRoot.append(cardDiv);
-    cardDiv.innerHTML = `<div class="star__container">
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                    </div>
+    cardDiv.innerHTML = `
                     <div class="review-details">
                       <div class="name-date">
                         <p class="name">${review.name}</p>
@@ -53,4 +47,14 @@ function createCardReview(data) {
                     </p>
                   </div>`;
   });
+}
+
+{
+  /* <div class="star__container">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div> */
 }

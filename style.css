@@ -6,6 +6,7 @@
   --primary-color: #005473;
   --secondary-color: #189ab4;
   --accent-color: #faca0b;
+  --hero-bg: #1f63706e;
   --body-bg: #d0d2d4;
   --text-color: #333652;
   --dark-blue: #050a30;
@@ -101,10 +102,6 @@ a {
 .nav-container {
   position: relative;
 }
-
-/* .header {
-  position: relative;
-} */
 
 .nav-title {
   text-transform: uppercase;
@@ -206,7 +203,7 @@ a {
 
 /* hero */
 .hero {
-  background-color: #1f63706e;
+  background-color: #aee4eb6e;
   /* padding-bottom: 2rem; */
 }
 
@@ -238,7 +235,9 @@ a {
 }
 
 /* icons */
-.icons {
+
+.icons-container {
+  padding: 25px;
   background-color: #3336524f;
   font-size: smaller;
 }
@@ -246,7 +245,7 @@ a {
 .row-icons {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 /* gallery-reviews */
@@ -487,4 +486,35 @@ a {
 .grid-item {
   border: 1px solid #bbb;
   border-radius: 7px;
+}
+
+/* REVIEW PAGE LARGE SCREEN */
+
+.review-card {
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  cursor: initial;
+  text-align: center;
+  padding: 60px;
+  /* max-width: calc(50% - 1rem);
+  flex-basis: 1; */
+}
+.flex-root {
+  margin: 40px auto;
+  max-width: 70%;
+  display: flex;
+  flex-flow: column;
+}
+
+@media (max-width: 750px) {
+  .review-details {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 465px) {
+  .flex-root {
+    max-width: 100%;
+    padding: 1rem;
+  }
 }
