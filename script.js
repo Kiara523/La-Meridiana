@@ -41,20 +41,30 @@ function createCardReview(data) {
                       <p class="title">${review.title}</p>
                     </div>
                     <p class="text text--reviews">
-                      <i class="fa-solid fa-quote-left fa-lg"></i>
+                      <i class="fa-solid fa-quote-left fa-xl"></i>
                       ${review.text}
-                      <i class="fa-solid fa-quote-right fa-lg"></i>
+                      <i class="fa-solid fa-quote-right fa-xl"></i>
                     </p>
+                    <div class="star__container">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    
+                    </div> 
                   </div>`;
   });
 }
-
-{
-  /* <div class="star__container">
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                    </div> */
+function generatingStarsRating(rating) {
+  let stars = "";
+  for (let i = 0; (i = 5); i++) {
+    if (i < rating) {
+      stars += '<i class="fa-solid fa-star"></i>';
+    } else {
+      stars += '<i class="fa-regular fa-star"></i>';
+    }
+  }
+  return stars;
 }
+//${generatingStarsRating(review.rating)}
